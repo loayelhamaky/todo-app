@@ -1,0 +1,30 @@
+name: todo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  easy_date_timeline: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - lib/assets/images/splash.png
+  uses-material-design: true
+
